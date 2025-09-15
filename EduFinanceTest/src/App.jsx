@@ -43,7 +43,7 @@ export default function App() {
             </div>
 
             <div className="overlay-panel overlay-right">
-              <h1>Olá, amigo!</h1>
+              <h1>Seja bem-vindo a Edu Finance</h1>
               <p>Entre com seu e-mail e comece sua jornada conosco</p>
               <button
                 className="ghost"
