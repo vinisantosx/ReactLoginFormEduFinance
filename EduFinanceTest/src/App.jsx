@@ -3,6 +3,8 @@ import "./styles.css";
 import SignInForm from "./Login";
 import SignUpForm from "./Cadastro";
 import ForgotPassword from "./EsqueceuSenha"; // 👈 novo import
+import Coruja from "./assets/Coruja1.png";
+import Coruja3 from "./assets/Coruja3.png";
 
 export default function App() {
   const [view, setView] = useState("auth"); // "welcome", "auth", "forgot"
@@ -31,6 +33,11 @@ export default function App() {
         <div className="overlay-container">
           <div className="overlay">
             <div className="overlay-panel overlay-left">
+               <img 
+                    src={Coruja3}  
+                  alt="Logo Edu Finance" 
+                style={{ width: "180px", marginBottom: "0px" }} 
+  />
               <h1>Bem-vindo de volta!</h1>
               <p>Para continuar conectado conosco, faça login com suas informações</p>
               <button
@@ -43,6 +50,11 @@ export default function App() {
             </div>
 
             <div className="overlay-panel overlay-right">
+                <img 
+                    src={Coruja}  
+                  alt="Logo Edu Finance" 
+                style={{ width: "100px", marginBottom: "0px" }} 
+  />
               <h1>Seja bem-vindo a Edu Finance</h1>
               <p>Entre com seu e-mail e comece sua jornada conosco</p>
               <button
