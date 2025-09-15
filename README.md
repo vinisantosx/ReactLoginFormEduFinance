@@ -136,49 +136,6 @@ ReactLoginFormEduFinance/
 - Layout 100% responsivo para mobile  
 - Testes unitários com **Jest/React Testing Library**  
 
----
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas!
-
-1. Faça um **fork** do projeto  
-2. Crie uma branch: `git checkout -b feature/nome-da-feature`  
-3. Commit suas alterações: `git commit -m 'Adiciona nova feature'`  
-4. Push para sua branch: `git push origin feature/nome-da-feature`  
-5. Abra um **Pull Request**
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**.  
-Sinta-se livre para usar, modificar e compartilhar.  
-
----
-
-## ℹ️ Observação importante: por que os links “não funcionam”?
-
-Se os links do README aparecerem **como texto** (não clicáveis) no GitHub, provavelmente **você colou o conteúdo dentro de um bloco de código** (ou manteve os ```triple backticks**) ao editar o arquivo. Quando o conteúdo está dentro de um bloco de código, o GitHub mostra tudo como código e **os links não ficam clicáveis**.
-
-**O que fazer (duas opções):**
-
-1. Pelo site do GitHub:
-   - Abra o repositório no GitHub.
-   - Clique em `README.md`.
-   - Clique no ícone de lápis (✏️) para editar.
-   - Apague qualquer ```triple backticks``` se houver e cole **apenas** o conteúdo Markdown (este arquivo).
-   - Commit as mudanças.
-
-2. Pela linha de comando:
-   - Substitua o README localmente e faça push:
-     ```bash
-     # substitua o README.md local pelo conteúdo correto
-     git add README.md
-     git commit -m "Atualiza README com links funcionais"
-     git push origin main
-     ```
-   - (Certifique-se de que sua branch principal se chame `main` ou `master` conforme o repositório.)
 
 
 
