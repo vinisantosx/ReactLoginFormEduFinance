@@ -36,7 +36,7 @@ export default function App() {
                <img 
                     src={Coruja3}  
                   alt="Logo Edu Finance" 
-                style={{ width: "180px", marginBottom: "0px" }} 
+                style={{ width: "190px", marginBottom: "0px" }} 
   />
               <h1>Bem-vindo de volta!</h1>
               <p>Para continuar conectado conosco, faça login com suas informações</p>
